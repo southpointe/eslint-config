@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "rootDir": "./",
+        "outDir": ".",
+        "lib": ["esnext"],
+        "moduleResolution": "node",
+        "strict": true,
+        "esModuleInterop": true,
+        "allowJs": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+        "./index.ts"
+    ],
+    "exclude": ["node_modules"]
+}
