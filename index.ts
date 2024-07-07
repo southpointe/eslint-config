@@ -70,7 +70,7 @@ const makeConfig = ({
     merge = {},
     globals = {},
     extraRules = {}
-}: ConfigOpts) => [
+}: ConfigOpts): unknown[] => [
 
     {
         files: isTrue(merge?.files) ? ['**/*.{ts}', ...files] : files,

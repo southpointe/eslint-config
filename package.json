@@ -9,7 +9,7 @@
       "require": "./index.cjs"
     }
   },
-  "types": "index.ts",
+  "types": "index.d.ts",
   "files": [
     "index.mjs",
     "index.cjs",
