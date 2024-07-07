@@ -2,7 +2,7 @@
   "name": "@southpointe/eslint-config",
   "version": "2.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.cjs",
   "exports": {
     ".": {
       "import": "./index.mjs",
