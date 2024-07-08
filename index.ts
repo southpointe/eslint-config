@@ -74,7 +74,11 @@ const makeConfig = ({
 
     {
         files: isTrue(merge?.files) ? ['**/*.{ts}', ...files] : files,
+    },
+    {
         ignores: isTrue(merge?.ignore) ? ignoreFiles.concat(ignore) : ignore,
+    },
+    {
         languageOptions: {
             globals: {
                 ...Globals.browser,
