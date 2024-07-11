@@ -135,6 +135,9 @@ const makeConfig = ({
                 { blankLine: 'any', prev: varsAndSuch, next: varsAndSuch, },
                 { blankLine: 'any', prev: 'expression', next: 'expression', },
             ],
+            '@typescript-eslint/no-this-alias': ['error', {
+                allowedNames: ['self']
+            }]
             ...extraRules
         }
     } as Linter.FlatConfig<any>
