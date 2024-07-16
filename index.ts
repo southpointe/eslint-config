@@ -137,7 +137,7 @@ const makeConfig = ({
             ],
             '@typescript-eslint/no-this-alias': ['error', {
                 allowedNames: ['self']
-            }]
+            }],
             ...extraRules
         }
     } as Linter.FlatConfig<any>
